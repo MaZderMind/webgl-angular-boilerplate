@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "webgl-angular-boilderplate": {
+    "webgl-angular-boilerplate": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/webgl-angular-boilderplate",
+            "outputPath": "dist/webgl-angular-boilerplate",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "webgl-angular-boilderplate:build"
+            "browserTarget": "webgl-angular-boilerplate:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "webgl-angular-boilderplate:build:production"
+              "browserTarget": "webgl-angular-boilerplate:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "webgl-angular-boilderplate:build"
+            "browserTarget": "webgl-angular-boilerplate:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "webgl-angular-boilderplate-e2e": {
+    "webgl-angular-boilerplate-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "webgl-angular-boilderplate:serve"
+            "devServerTarget": "webgl-angular-boilerplate:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "webgl-angular-boilderplate:serve:production"
+              "devServerTarget": "webgl-angular-boilerplate:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "webgl-angular-boilderplate"
+  "defaultProject": "webgl-angular-boilerplate"
 }

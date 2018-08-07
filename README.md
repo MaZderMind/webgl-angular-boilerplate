@@ -1,4 +1,4 @@
-# webgl-angular-boilderplate
+# webgl-angular-boilerplate
 
 A TypeScript based Angular-App with a ready to use WebGL Canvas including a basic working vertex- and fragment-shader.
 
